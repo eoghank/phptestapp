@@ -1,0 +1,7 @@
+---
+applications:
+- name: ek-php-sample
+  memory: 128M
+  disk_quota: 256M
+  buildpacks:
+    - php_buildpack
